@@ -7,7 +7,8 @@
     "build": "webpack --config webpack.prod.js",
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "server": "node server.js",
-    "split": "webpack --config webpack.split.js"
+    "split": "webpack --config webpack.split.js",
+    "cache": "webpack --config webpack.cache.js"
   },
   "keywords": [],
   "author": "",
